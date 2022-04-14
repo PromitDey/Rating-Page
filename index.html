@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel = "stylesheet" href ="index.css">
+    </head>
+<body>
+    <main>
+    <div class = "box" id = "feedback-box">
+        <div class = "star-icon">
+            <img src = "icon-star.svg">
+        </div>
+
+        <h2>How did we do?</h2>
+        <p>Please let us know how we did with your support request. All feedback is appreciated  to help us improve our  offering! </p>
+
+        <div class = "rating-btn-container">
+            <button class = "rating-btn" id="1" aria-selected="false" role="button"> 1 </button>
+            <button class = "rating-btn" id="2" aria-selected="false" role="button"> 2 </button>
+            <button class = "rating-btn" id="3" aria-selected="false" role="button"> 3 </button>
+            <button class = "rating-btn" id="4" aria-selected="false" role="button"> 4 </button>
+            <button class = "rating-btn" id="5" aria-selected="false" role="button"> 5 </button>
+        </div>
+
+        <button class = "submit-btn" id = "submit-el"> Submit !!</button>
+    </div>
+
+
+    <div hiddden class = "box thank-you-box" id = "thank-you-box">
+        <img src = "illustration-thank-you.svg">
+
+        <p class = "rating-result">You Selected <span id = "selected-rating">0 </span>out of 5</p>
+
+        <h2>Thank you!</h2>
+        <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+            dont hesitate to get in touch!</p>
+        
+    </div>    
+    </main>
+
+    <script src = "index.js"></script>
+</body>
+</html>
